@@ -1,0 +1,21 @@
+function validarForma (forma){
+    console.log("");
+    console.log("validando la forma");
+    var usuario -forma.firstname;
+    console.log("el usuarioes"+ usuario.value);
+    
+    if (usuario.value == ""|| usuario.value == "escribir usuario"){
+        alert("debe proporcionar un nombre de usuario");
+        usuario.focus();
+        usuario.select();
+        return false;
+
+    }
+
+    var mentiras = forma.mentiras;
+    var checkSeleccionado = false;
+
+}
+alert("formulario valido, enviando datos...");
+return true;
+}
